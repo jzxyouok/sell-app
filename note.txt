@@ -35,3 +35,21 @@
 
 5. 前置知识
     HTML、CSS、JavaScript、ES6、Vue.js
+
+开发笔记 第02天
+1. 目标
+    （1）掌握Vue.js在实战中的运用
+    （2）学会使用Vue.js完整地开发移动端App
+    （3）学会组件化、模块化的开发方式
+
+2. 内容
+    （1）Vue.js框架介绍
+    （2）Vue-cli架手架 搭建基本代码框架
+    （3）vue-router 官方插件管理路由
+    （4）vue-resource Ajax通信
+    （5）Webpack 构建工具
+    （6）es6+eslint eslint:es6代码风格检查工具
+    （7）工程化、组件化和模块化
+    （8）移动端常用的开发技巧
+            flex弹性布局、css sticky footer布局、酷炫的交互设计
+
