@@ -128,6 +128,32 @@
                 >> 每个组件对应一个工程目录，组件所需的各种资源在这个目录下就近维护；
                 >> 页面不过是组件的容器，组件可以嵌套自由组合形成完整的页面；
 
+开发笔记 第05天
+1. Vue-cli安装
+    * Vue-cli是vue的脚手架工具
+    * 脚手架就是帮助我们写好基础代码的工具
+    * Vue-cli脚手架能帮助我们完成下面几项工作：目录结构、本地调试、代码部署、热加载、单元测试等
+    * github地址：https://github.com/vuejs/vue-cli
+    * 检查nodejs版本 必须在v4.*.*以上
+    * 安装vue-cli，全局安装执行命令 npm install -g vue-cli
+    * 检查安装成功 执行命令 vue 或 vue list
+
+2. 项目文件介绍
+    * 基于webpack模板新建项目：vue init webpack sell-app
+        >> Project name 选择默认即可
+        >> Project description 选择默认即可
+        >> Author 选择默认回车即可
+        >> Use ESLint to lint your code? 选择Y
+        >> Standard (https://github.com/feross/standard)
+           AirBNB (https://github.com/airbnb/javascript)
+           none (configure it yourself) 选择标准即可
+        >> Setup unit tests with Karma + Mocha? (Y/n) 选择n
+        >> Setup e2e tests with Nightwatch? (Y/n) 选择n
+    * 安装项目依赖然后运行项目
+        cd sell-app
+        npm install
+        npm run dev
+
 
 
 
