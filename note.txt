@@ -154,6 +154,32 @@
         npm install
         npm run dev
 
+开发笔记 第06天
+1. 项目文件介绍
+  webpack配置相关
+    -- build目录
+    -- config目录
+  node_modules文件夹：  npm install 安装的依赖代码库
+  src文件夹： 存放项目源码
+  static目录： 存放第三方静态资源
+      备注：.gitkeep文件的作用是默认git是不会将空的static目录提交到代码仓库的，如果该目录下包含.gitkeep文件，则可以将
+      该空目录提交到git仓库
+  .babelrc文件： babel的配置文件
+      presets 预设插件
+      plugins 插件
+  .editorconfig文件：编辑器的配置文件
+  .eslintignore文件：忽略语法检查的的目录文件
+  .eslintrc.js文件：eslint的配置文件
+      extends: 'standard' 表示继承一个标准的规则，
+          规则地址：https://github.com/feross/standard/blob/master/RULES.md#javascript-standard-style
+      'rules': {
+          // allow paren-less arrow functions
+          'arrow-parens': 0
+    	}
+      该配置是用来配置一些特殊的规则，也就是我们不希望从标准规则继承的规则配置，如果不使用该规则，则配置为0即可
+  .gitignore文件 git的忽略配置文件
+  package.json文件 项目的配置文件
+
 
 
 
