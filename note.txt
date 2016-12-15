@@ -180,6 +180,21 @@
   .gitignore文件 git的忽略配置文件
   package.json文件 项目的配置文件
 
+开发笔记 第07天
+1. webstorm配置
+  * 默认不支持ES6语法，需要file--settings--languages & frameworks--JavaScript 选择将语言版本设置为ECMAScript6即可
 
+2. 简化写法，使用ES6语法
+   components: { App } 相当于ES5的 components: { App: App }
 
+3. webstorm代码格式化
+   ctrl + alt + L
 
+4. vue的组件
+   先注册，后使用
+
+5. export default {} 这种形式是vue提供的一个语法糖，用来定义一个组件
+
+6. 编写一个组件的步骤
+  * 编写一个vue文件，然后包含三块：template、script、style，在script部分通过export default将定义的组件对象导出
+  * 在另外一个组件中通过import导入组件，然后通过components属性去注册组件，然后就可以使用组件信息了
